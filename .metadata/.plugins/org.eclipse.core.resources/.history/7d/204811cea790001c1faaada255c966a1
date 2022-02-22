@@ -1,0 +1,21 @@
+package com.training;
+
+import java.util.Scanner;
+
+class circle {
+    String name;
+    float radius;
+    String color;
+    public class areaCircle{
+        float area,a ;
+        area = 3.14*r*r;
+        
+    }
+}
+
+public class faltu {
+    public static void main(String[] args) {
+       
+    }
+
+}

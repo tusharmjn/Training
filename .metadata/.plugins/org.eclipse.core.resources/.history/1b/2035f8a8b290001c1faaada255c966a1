@@ -1,0 +1,54 @@
+package com.training;
+
+import java.util.Scanner;
+
+class Circle {
+    private String name;
+    private float radius;
+    private String color;
+
+    Circle(){
+        name = "constructor set my name as this";
+    }
+    
+    public void setRadius(float a) {
+        radius = a;
+    }
+
+    public float getRadius() {
+        return radius;
+    }
+
+    public void setName(String localName) {
+        name = localName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+}
+
+public class faltu {
+    public static void main(String[] args) {
+        Circle c1 = new Circle();
+        Scanner sc = new Scanner(System.in);
+        Scanner sc1 = new Scanner(System.in);
+        float r = sc.nextFloat();
+        // c1.radius = r;
+        c1.setRadius(r);
+        // System.out.println(c1.radius);
+        System.out.println(c1.getRadius());
+
+        Circle c2 = new Circle();
+        String name = sc1.nextLine();
+        c1.setName(name);
+//        String iGotTheName = c1.getName();
+        System.out.println(c1.getName());
+        Circle c3 = new Circle();
+        System.out.println(c3.getName());
+//        c3.setRadius(3);
+//        c3.setName("tushar");
+    }
+
+}

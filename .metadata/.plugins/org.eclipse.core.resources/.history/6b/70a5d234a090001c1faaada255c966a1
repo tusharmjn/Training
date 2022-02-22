@@ -1,0 +1,11 @@
+package com.training;
+
+public class faltu {
+
+	public static void main(String[] args) {
+		int n = 1234;
+		System.out.println(n/10);
+		System.out.println(n%10);
+	}
+
+}

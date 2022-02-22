@@ -1,0 +1,20 @@
+package com.training;
+import java.util.*;
+
+public class CompareTwo {
+	public static boolean compare(int A ,int B) {
+		if(A==B)
+			return true;
+		else
+			return false;
+	}
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		
+		System.out.println(compare(x,y));
+	}
+}
+

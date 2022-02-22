@@ -1,0 +1,31 @@
+package com.training;
+
+import java.util.Scanner;
+
+class Circle {
+    private String name;
+    private float radius;
+    private String color;
+    
+    public void setRadius(float a) {
+        radius = a;      
+    }
+    public float getRadius() {
+        return radius;
+    }
+    
+}
+
+public class faltu {
+    public static void main(String[] args) {
+        Circle c1 = new Circle();
+        Scanner sc = new Scanner(System.in);
+        float r = sc.nextFloat();
+       // c1.radius = r;
+        c1.setRadius(r); 
+        //System.out.println(c1.radius);
+        System.out.println(c1.getRadius());
+
+    }
+
+}

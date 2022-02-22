@@ -1,0 +1,9 @@
+package com.training.oop;
+
+public class Shapes {
+
+    public Shapes() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

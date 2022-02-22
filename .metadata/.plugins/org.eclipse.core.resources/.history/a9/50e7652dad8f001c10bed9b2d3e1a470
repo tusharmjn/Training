@@ -1,0 +1,30 @@
+package com.training;
+import java.util.*;
+public class DigitSum {
+	public static int sumIterative(int n) {
+		int sum=0;
+		for(sum=0; n!=0; n=n/10)  
+		{    
+			sum = sum + n % 10;  
+		}  			
+		return sum;
+	}
+	public static int sumRecursive(int n) {
+		int sum =0;
+		if(n==0)
+			return 0;
+		else {
+			
+			sum= n%10 + sumRecursive(n/10);
+			return sum;
+			}
+	}
+
+	public static void main(String[] args) {		
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int sum = 0;
+		System.out.println(sumRecursive(n));
+		System.out.println(sumIterative(n));
+	}
+}

@@ -1,0 +1,88 @@
+package com.training.oop;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class Circle {
+    private String name;
+    private double radius;
+    private String color;
+
+    Circle() {
+    }
+
+    Circle(double r) {
+        this.radius = r;
+    }
+
+    Circle(double r, String n, String c) {
+        this.radius = r;
+        name = n;
+        color = c;
+    }
+
+    public void setRadius(double a) {
+        radius = a;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setName(String localName) {
+        name = localName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setColor(String c) {
+        name = c;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+}
+
+public class AreaCircle {
+    public static void main(String[] args) {
+        ArrayList<Circle> List = new ArrayList<>();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println("Enter no. of circles u want to input : " + n);
+        for (int i = 1; i <= n; i++) {
+//        Scanner sc = new Scanner(System.in);
+            System.out.println("Input radius, name and color of first circle: ");
+            double radius1 = sc.nextDouble();
+            sc.nextLine();
+            String name1 = sc.nextLine();
+            String color1 = sc.nextLine();
+//            sc.close();
+            Circle c1 = new Circle(radius1, name1, color1);
+            System.out.println("Name: " + c1.getName() + ", Radius: " + c1.getRadius() + ", Color: " + c1.getColor());
+            List.add(c1);
+//            System.out.println("Name: " + c1.getName() + ", Radius: " + c1.getRadius() + ", Color: " + c1.getColor()
+//                    + ", Area: " + c1.getRadius() * c1.getRadius() * 22 / 7);
+        }
+//  ******check array list**** for (Circle c : List) {
+//                          System.out.println(c.getName());
+//        } 
+        System.out.println("enter circle name.:");
+        String CircleName = sc.nextLine();
+        if (List.contains(CircleName)) {
+                System.out.println("ok");
+        }
+
+//        Circle c1 = new Circle(radius1, name1, color1);
+
+        /*
+         * System.out.println("Name: " + c1.getName() + ", Radius: " + c1.getRadius() +
+         * ", Color: " + c1.getColor() + ", Area: " + c1.getRadius() * c1.getRadius() *
+         * 22 / 7);
+         */
+    }
+
+}

@@ -1,0 +1,19 @@
+package com.training;
+
+class Circle {
+    String name = "Circle1";
+    float radius;
+    String color;
+
+//    public class float areaCircle() {
+//        float area,r;
+//        area=3.14*r*r;
+}
+
+public class faltu {
+    public static void main(String[] args) {
+        Circle c1 = new Circle();
+        System.out.println(c1.name);
+    }
+
+}

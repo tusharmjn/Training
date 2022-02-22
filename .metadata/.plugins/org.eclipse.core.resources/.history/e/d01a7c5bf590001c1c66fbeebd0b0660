@@ -1,0 +1,47 @@
+package com.training.oop;
+import java.util.*;
+
+public class Circle {
+    private String name;
+    private double radius;
+    private String color;
+
+    Circle() {
+    }
+
+    Circle(double r) {
+        this.radius = r;
+    }
+
+    Circle(double r, String n, String c) {
+        this.radius = r;
+        name = n;
+        color = c;
+    }
+
+    public void setRadius(double a) {
+        radius = a;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setName(String localName) {
+        name = localName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setColor(String c) {
+        name = c;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+
+}

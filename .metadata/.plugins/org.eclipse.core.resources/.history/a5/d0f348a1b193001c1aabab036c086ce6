@@ -1,0 +1,9 @@
+package com.training.oop;
+
+public class AreaShapes {
+
+    public static void main(String[] args) {
+
+    }
+
+}

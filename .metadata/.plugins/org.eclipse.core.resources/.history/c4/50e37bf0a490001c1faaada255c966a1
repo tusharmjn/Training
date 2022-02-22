@@ -1,0 +1,19 @@
+package com.training;
+
+import java.util.Scanner;
+
+class circle {
+    String name;
+    float radius;
+    String color;
+    Scanner sc = new Scanner(System.in);   
+}
+
+public class faltu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        circle name = new circle();
+        System.out.println(name.name);
+    }
+
+}

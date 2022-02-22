@@ -1,0 +1,73 @@
+package com.training;
+
+import java.util.Scanner;
+
+class Circle {
+    private String name;
+    private double radius;
+    private String color;
+
+    Circle() {
+    }
+
+    Circle(double r) {
+        this.radius = r;
+    }
+
+    Circle(double r, String n, String c) {
+        this.radius = r;
+        name = n;
+        color = c;
+    }
+
+    public void setRadius(double a) {
+        radius = a;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setName(String localName) {
+        name = localName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setColor(String c) {
+        name = c;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+}
+
+public class faltu {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input radius, name and color of first circle: ");
+        double radius1 = sc.nextDouble();
+   
+        sc.nextLine();
+        String name1 = sc.nextLine();
+        sc.nextLine();
+        String color1 = sc.nextLine();
+        sc.close();
+
+        Circle c1 = new Circle(radius1, name1, color1);
+
+        System.out.println(c1.getRadius());
+        System.out.println(c1.getName());
+        System.out.println(c1.getColor());
+//        System.out.println(c2.getRadius());
+//        System.out.println(c2.getName());
+//        System.out.println(c3.getRadius());
+//        System.out.println(c3.getName());
+    }
+
+}

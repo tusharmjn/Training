@@ -1,0 +1,14 @@
+package com.training.oop;
+import java.util.*;
+
+public class AreaShapes {
+
+    public static void main(String[] args) {
+        Shapes sh = new Shapes(String name1, int length1, int width1, int radius1);
+        
+       
+        
+        
+    }
+
+}

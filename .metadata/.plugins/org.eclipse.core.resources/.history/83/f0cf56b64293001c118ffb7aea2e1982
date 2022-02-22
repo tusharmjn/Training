@@ -1,0 +1,48 @@
+package com.training.oop;
+
+class Shapes {
+    private String name;
+    private int length;
+    private int width;
+    private int radius;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public int getRadius() {
+        return radius;
+    }
+
+    public void setRadius(int radius) {
+        this.radius = radius;
+    }
+
+}
+
+public class AreaShapes {
+
+    public static void main(String[] args) {
+    }
+
+}
