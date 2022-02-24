@@ -56,38 +56,3 @@ class Shapes {
 //    }
 
 }
-
-class Circle extends Shapes {
-
-    Circle(String name, int a) {
-        super(name, a);
-    }
-
-    public int area() {
-        return (int) (Pi * a * a);
-    }
-}
-
-class Rectangle extends Shapes {
-
-    public Rectangle(String name, int a, int b) {
-        super(name, a, b);
-    }
-
-    public int area() {
-        return a * b;
-    }
-
-}
-
-class Square extends Shapes {
-
-    public Square(String name, int a) {
-        super(name, a);
-
-    }
-
-    public int area() {
-        return a * a;
-    }
-}
