@@ -1,0 +1,13 @@
+"22:19:43.877 [main] INFO  com.inheritance.shapes.Circle - Circle Constructor is Created
+""22:19:43.881 [main] INFO  com.inheritance.shapes.Main - Circle Constructor in main
+""22:19:49.478 [main] INFO  com.inheritance.shapes.Rectangle - Rectangle Constructor is Created
+""22:19:49.478 [main] INFO  com.inheritance.shapes.Main - Rectangle Constructor in main
+""22:19:52.345 [main] INFO  com.inheritance.shapes.Square - Square Constructor is Created
+""22:19:52.345 [main] INFO  com.inheritance.shapes.Main - Square Constructor in main
+""22:20:52.525 [main] INFO  com.inheritance.shapes.Circle - Circle Constructor is Created
+""22:20:52.539 [main] INFO  com.inheritance.shapes.Main - Circle Constructor in main
+""22:20:56.321 [main] INFO  com.inheritance.shapes.Rectangle - Rectangle Constructor is Created
+""22:20:56.322 [main] INFO  com.inheritance.shapes.Main - Rectangle Constructor in main
+""22:20:59.963 [main] INFO  com.inheritance.shapes.Square - Square Constructor is Created
+""22:20:59.963 [main] INFO  com.inheritance.shapes.Main - Square Constructor in main
+"

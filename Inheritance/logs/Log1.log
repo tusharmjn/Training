@@ -1,0 +1,8 @@
+10:32:28.460 [main] INFO  com.employee.payroll.SalariedEmployee - Constructor for SalariedEmployee Created
+10:32:28.462 [main] INFO  com.employee.payroll.Main - Object for SalariedEmployee Created
+10:32:36.374 [main] INFO  com.employee.payroll.HourlyEmployee - Constructor for HourlyEmployee Created
+10:32:36.375 [main] INFO  com.employee.payroll.Main - Object for HourlyEmployee Created
+10:32:51.431 [main] INFO  com.employee.payroll.CommissionEmployee - Constructor for CommissionEmployee Created
+10:32:51.431 [main] INFO  com.employee.payroll.Main - Object for CommissionEmployee Created
+10:33:00.404 [main] INFO  com.employee.payroll.BaseSalariedCommissionEmployee - Constructor for BaseSalariedCommissionEmployee Created
+10:33:00.404 [main] INFO  com.employee.payroll.Main - Object for BaseSalariedCommissionEmployee Created

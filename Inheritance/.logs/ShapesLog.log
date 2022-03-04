@@ -1,0 +1,7 @@
+"23:51:51.818 [main] INFO  com.inheritance.shapes.Circle - Circle Constructor is Created
+""23:51:51.823 [main] INFO  com.inheritance.shapes.Main - Circle Constructor is Created
+""23:52:02.336 [main] INFO  com.inheritance.shapes.Rectangle - Rectangle Constructor is Created
+""23:52:02.336 [main] INFO  com.inheritance.shapes.Main - Rectangle Constructor is Created
+""23:52:08.323 [main] INFO  com.inheritance.shapes.Square - Square Constructor is Created
+""23:52:08.323 [main] INFO  com.inheritance.shapes.Main - Square Constructor in Created
+"

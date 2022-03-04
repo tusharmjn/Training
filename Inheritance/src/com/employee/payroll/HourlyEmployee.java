@@ -1,19 +1,17 @@
 package com.employee.payroll;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 class HourlyEmployee extends Employee {
 
-    public HourlyEmployee(String name, String email, int phoneNumber, int hours) {
-        super(name, email, phoneNumber, hours);
-//        this.setHours(hours);
-    }
+    public static Logger log = LogManager.getLogger(HourlyEmployee.class);
 
-//    public HourlyEmployee() {
-//        Scanner sc = new Scanner(System.in);
-//        HourlyEmployee h = new HourlyEmployee();
-//        int Hours = sc.nextInt();
-//        h.setHours(Hours);
-//        h.getHours();
-//    }
+    public HourlyEmployee(String name, String email, int phoneNumber, int hours) {
+
+        super(name, email, phoneNumber, hours);
+        log.info("Constructor for HourlyEmployee Created");
+    }
 
     public double calculateSalary() {
 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="filename">./logs</Property>
+    </Properties>
+    <Appenders>
+        <RollingFile name="file" fileName="${filename}/Log.log" filePattern="Log-%d{HH-mm-ss-SSS}.log">
+            <PatternLayout>
+                <pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+            </PatternLayout>
+            <SizeBasedTriggeringPolicy size="10 kb" />
+        </RollingFile>
+
+        <RollingFile name="file2" fileName="${filename}/Log1.log" filePattern="Log1-%d{HH-mm-ss-SSS}.log">
+            <PatternLayout>
+                <pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+            </PatternLayout>
+            <SizeBasedTriggeringPolicy size="10 kb" />
+        </RollingFile>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.inheritance.shapes" level="info" additivity="false">
+            <AppenderRef ref="file" />
+        </Logger>
+        <Logger name="com.employee.payroll" level="info" additivity="false">
+            <AppenderRef ref="file2" />
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="file" />
+        </Root>
+    </Loggers>
+</Configuration>

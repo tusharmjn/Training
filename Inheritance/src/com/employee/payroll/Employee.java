@@ -11,6 +11,10 @@ public class Employee {
     final int baseSalary = 2000;
     final int salesSalary = 3000;
 
+    public Employee(String name) {
+        this.name = name;
+    }
+
     public Employee(String name, String email, int phoneNumber) {
         this.name = name;
         this.email = email;
@@ -85,10 +89,4 @@ public class Employee {
                 + ", hours=" + hours + ", fixedSalary=" + fixedSalary + ", hourly=" + hourly + ", baseSalary="
                 + baseSalary + ", salesSalary=" + salesSalary + "]";
     }
-
-//    @Override
-//    public String toString() {
-//        return "Employee [name=" + name + ", email=" + email + ", phoneNumber=" + phoneNumber + ", fixedSalary="
-//                + fixedSalary + ", hourly=" + hourly + ", baseSalary=" + baseSalary + ", salesSalary=" + salesSalary
-//                + "]";
 }

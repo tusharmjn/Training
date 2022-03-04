@@ -1,6 +1,7 @@
 package com.inheritance.shapes;
 
 class Shapes {
+
     protected String name;
     protected int a;
     protected int b;
